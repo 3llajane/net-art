@@ -1,0 +1,22 @@
+@import url();
+body{
+    background-color: rgb(4, 248, 223);
+    color:rgb(255, 0, 204);
+    background-image: url(../img/.jpeg);
+    text-align: center;
+}
+
+h1{
+    color: rgb(230, 255, 5);
+    background-color: rgb(4, 248, 223);
+    width: 40%;
+    font-family: "Pixelify Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2{
+    color:rgb(255, 0, 204) ;
+    margin: auto;
+}
