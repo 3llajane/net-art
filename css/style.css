@@ -20,3 +20,42 @@ h2{
     color:rgb(255, 0, 204) ;
     margin: auto;
 }
+
+section {
+    margin: 80px 0 80px 0;
+    display:grid;
+    grid-template-columns: repeat (12,1fr);
+    grid-column-gap: 24px;
+    grid-auto-flow:dense;
+}
+body{
+    font-family: Nunito Sans;
+    font-size: 16px;
+    line-height: 1.5;
+
+    background-color: aliceblue;
+    color: aqua;
+    margin: 80px auto 48px auto;
+    width: 1120px;
+}
+
+#tagline{
+    grid-column: 2 /span 10;
+    text-align: center;
+}
+
+.photo-grid {
+    display: grid; /* Enable grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Flexible columns */
+    gap: 16px; /* Space between images */
+    padding: 16px; /* Padding around the grid */
+  }
+  
+  /* Style for images */
+  .photo-grid img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: round the corners of the images */
+    object-fit: cover; /* Crop images to fit within their grid cell */
+  }
+  
